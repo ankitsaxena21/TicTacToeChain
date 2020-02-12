@@ -4,8 +4,9 @@
   "description": "Frontend example using truffle v3",
   "scripts": {
     "lint": "eslint ./",
-    "build": "webpack",
-    "start": "webpack-dev-server"
+    "build": "webpack --mode production --config ./webpack.prod.config.js",
+    "start": "webpack-dev-server",
+    "postinstall": "webpack -p --config ./webpack.prod.config.js --progress"
   },
   "author": "Douglas von Kohorn",
   "license": "MIT",
