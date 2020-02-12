@@ -4,8 +4,7 @@
   "description": "Frontend example using truffle v3",
   "scripts": {
     "lint": "eslint ./",
-    "start": "webpack-dev-server",
-    "postinstall": "webpack -p"
+    "start": "webpack-dev-server"
   },
   "author": "Douglas von Kohorn",
   "license": "MIT",
@@ -36,7 +35,7 @@
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
   },
-  "engines":{
-    "node":"8.10.0"
-}
+  "engines": {
+    "node": "8.10.0"
+  }
 }
